@@ -1,1 +1,9 @@
-*/!*.ipynb
+# Ignore everything ...
+*
+
+# Except for these files ...
+!*.ipynb$
+!.gitignore
+
+# Even in subdirectories
+!*/
